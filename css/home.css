@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1340px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-form__inp {
+    width: 670px;
+    height: 48px;
+    border-radius: 30px;
+    background: #F8FAFD;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.section-form__btn {
+    width: 99px;
+    height: 40px;
+    background: #0D75FF;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.section-line {
+    margin-top: 15px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.show__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 275px;
+    padding: 11px 0;
+}
+
+.show__title {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222531;
+}
+
+.rank-btn {
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    background: #a6b0c3;
+    border-radius: 4px;
+    padding: 10px 16px;
+    border: none;
+    width: 190px;
+    background-image: url("../imgs/calendar\ 1.png");
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+}
+
+
+
+.section-wrapper__title {
+    font-size: 24px;
+    width: 125px;
+    height: 28px;
+    margin-bottom: 5px;
+}
+
+.section-wrapper__p {
+    width: 218px;
+    height: 44px;
+    font-size: 16px;
+}
+
+ .bookmarks {
+    max-width: 268px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.bookmarks__content {
+    margin-bottom: 25px;
+}
+
+.bookmarks__title {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.bookmarks__text {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.6%;
+    color: #000000;
+}
+
+.bookmarks__item {
+    width: 218px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #efefef;
+    border-radius: 4px;
+    padding: 15px 11px 15px 10px;
+    margin-top: 20px;
+}
+
+.bookmarks__subtitle {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bookmarks__text {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #54565d;
+}
+
+.bookmarks__book-icon {
+    width: 24px;
+    height: 24px;
+}
+.section-big {
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+.section-books {
+    width: 269px;
+    height: 428px;
+    background: #F8FAFD;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+.section-items {
+    background: #E5E5E5;
+    width: 1020px;
+    margin-left: 30px;
+}
+
+.section-books__img {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 150px;
+    height: 160px;
+}
+.section-list {
+    display: flex;
+    position: relative;
+    width: 282px;
+    height: 431px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.wrap-big {
+    margin-top: 130px;
+    list-style: none;
+}
+.ul-d {
+    background: #E5E5E5;
+    width: 1020px;
+    margin-left: 30px;
+}
+.section-item {
+    background: #E5E5E5;
+    margin-left: 30px;
+    width: 1020px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 23px;
+    list-style: none;
+}
+.section-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+} 
+.section-title__one {
+    font-size: 22px;
+    line-height: 21px;
+    margin-bottom:10px;
+    color: #000000;
+}
+.section-btn__one {
+    width: 120px;
+    height: 37px;
+    background: #FFD80D;
+    border-radius: 4px;
+    border: none;
+    color: #000000;
+} 
+.section-btn__two {
+        width: 120px;
+    height: 37px;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 4px;
+    border: none;
+    color: #0D75FF;
+
+}
+.section-btn__three {
+    width: 246px;
+    height: 37px;
+    background: #75828A;
+    border-radius: 4px;
+    margin-top: 125px;
+    border: none;
+    color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin-left: 60%;
+    padding: 20px;
+    border: 1px solid #888;
+    
+    height: 100vh;
+}
+
+  /* The Close Button */
+.closee {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.closee:hover,
+.closee:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-title {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222531;
+}
+
+.modal-img {
+    max-width: 228px;
+    max-height: 299px;
+    margin-left: 10%;
+}
+
+.modal-desc {
+    margin: 0;
+    padding: 0;
+    width: 470px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 170.3%;
+    color: #58667e;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.modal-infos {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222531;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.modal-authors-list {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-authors-item {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-span {
+    padding: 0;
+    margin: 0;
+    background-color: #0d75ff17;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0d75ff;
+    margin-left: 10px;
+}
+
+a {
+    position: relative;
+    width: 112px;
+    padding: 9px 38px;
+    top: 15px;
+    text-decoration: none;
+}
+
+

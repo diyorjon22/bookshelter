@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-header {
+    background-image: url(../images/Login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header {
+    position: relative;
+    text-align: center;
+    top: 170px;
+}
+.header-logo__img {
+    margin-bottom: 40px;
+}
+.header-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-form__inp {
+    width: 300px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    outline: none;
+    color: #ffffff;
+    text-indent: 50px;
+    background-image: url('../images/user.png');
+    background-repeat: no-repeat;
+    background-position-x:10px ;
+    background-position-y:10px ;
+}
+.header-form__inpp {
+    width: 300px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    text-indent: 50px;
+    background-image: url('../images/lock.png');
+    background-repeat: no-repeat;
+    background-position-x:10px ;
+    background-position-y:10px;
+    color: white;
+}
+.header-form__btn {
+    width: 300px;
+    height: 45px;
+    color: #0D75FF;
+    font-size: 18px;
+}
+.header-form__p {
+    color: white;
+    font-size: 18px;
+    padding-left: 160px;
+}
